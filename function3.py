@@ -1,0 +1,5 @@
+n = input("Enter your name:")
+t = input("Enter your age:")
+# message = "Hello %s, your age is: %s!" % (n, t)
+message = "Hello {}, your age is {}!".format(n, t)
+print(message)
