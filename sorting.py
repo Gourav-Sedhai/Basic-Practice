@@ -1,0 +1,2 @@
+mydict = [{'Counted number': '26', 'Timestamp': '8/10/2015 13:07:38'},{'Counted number': '14','Timestamp': '8/10/2015 11:51:14'},{'Counted number': '28','Timestamp': '8/10/2015 13:06:27'}, {'Counted number': '20','Timestamp': '8/10/2015 12:53:42'}]
+mydict.sort(key=lambda x:x['Timestamp'])
